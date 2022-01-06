@@ -35,16 +35,25 @@ main{
     
 }
 .firstsection_header{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Lobster','sans-serif';
     font-size: 28px;
     padding-left: 15px;
-    letter-spacing: 8px;
-    border-left: 4px solid;
-    border-image: linear-gradient(
-    180deg, lightsalmon, tomato,blue);
-    border-image-slice: 1;
+    letter-spacing: 2px;
+    position: relative;
+    /* border-image: linear-gradient(
+    180deg, lightsalmon, tomato,blue); */
+  
 }
-
+.bordar_left{
+   background-image:  linear-gradient(
+    180deg, lightsalmon, tomato,blue) ;
+    width: 5px;
+    height: 103px;
+    position: absolute;
+    top: 13px;
+    left: 0px;
+   
+}
 .orange_heading{
     color:orange;
 }
@@ -61,7 +70,7 @@ main{
 .button{
     text-decoration: none;
     padding: 10px 30px;
-    background-color: #eb4d4b;
+    background-color:#575fcf;
     font-family: 'Poppins', sans-serif;
     color: white;
     font-size: 18px;
@@ -93,15 +102,16 @@ main{
     margin-bottom:100px ;
 }
 
-.second_section h1{
+
+.theading{
     width: 100%;
     height: 30%;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 50px;
-    font-weight: bold;
-   
 }
+    
+
 .card_container{
     width: 100%;
     height: 70%;
@@ -194,7 +204,59 @@ main{
     background-position: 1180px bottom;
 }
 
-#padding_short{
-    padding-left: 0px;
+/* =============four section end=========== */
+
+/* ======================================== */
+
+/* ===========five section start============= */
+
+.five{
+    height: 80vh;
+    
+}
+
+#secfive{
+    height: 70%;
+}
+#five_content{
+    height: 100%;
+    padding: 20px 0px 25px 30px;
+}
+#proimage{
+    border-radius: 15px;
+}
+#fivesec_pera{
+    padding: 20px 20px 20px 0px;
+}
+
+/* ==============five section end============= */
+
+/* =========================================== */
+
+/* ============footer start=================== */
+
+footer{
+    width: 100%;
+    height: 22vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer h1{
+    font-size: 40px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.redclr{
+    color: red;
+}
+#footer_p{
+    color: rgba(255, 255, 255, 0.644);
+    font-size: 13.5px;
+    font-weight: 100;
 }
 
