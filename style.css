@@ -48,7 +48,7 @@ main{
    background-image:  linear-gradient(
     180deg, lightsalmon, tomato,blue) ;
     width: 5px;
-    height: 103px;
+    height: 105px;
     position: absolute;
     top: 13px;
     left: 0px;
@@ -203,6 +203,9 @@ main{
     background-size: 14%;
     background-position: 1180px bottom;
 }
+#padding_short{
+    padding-left: 0px;
+}
 
 /* =============four section end=========== */
 
@@ -247,7 +250,7 @@ footer{
 footer h1{
     font-size: 40px;
     color: white;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Lobster','sans-serif';
     
 }
 
@@ -259,4 +262,8 @@ footer h1{
     font-size: 13.5px;
     font-weight: 100;
 }
+/* ===============footer end=================== */
 
+/* ============================================ */
+
+/* ============project end===================== */
